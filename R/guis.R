@@ -531,10 +531,10 @@ genomestruc.gui<-function() {
 
             list.g$genes[[i]]$name <- s.name
             d.max<-ttd.gene.min[i] + round((ttd.gene.max[i]-ttd.gene.min[i])/ttd.gene.step[i])*ttd.gene.step[i]
-            i.allels<-(d.max - ttd.gene.min[i])/ttd.gene.step[i] + 1
+            i.alleles<-(d.max - ttd.gene.min[i])/ttd.gene.step[i] + 1
             list.g$genes[[i]]$min <- ttd.gene.min[i]
             list.g$genes[[i]]$max <- d.max
-            list.g$genes[[i]]$n.allels <- i.allels
+            list.g$genes[[i]]$n.alleles <- i.alleles
             
             vstr.names <- strsplit(ttvs.gene.names[i], ";")[[1]]
             if ( length(vstr.names) != (d.max-ttd.gene.min[i])/ttd.gene.step[i] + 1 )

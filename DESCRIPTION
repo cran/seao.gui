@@ -1,5 +1,5 @@
 Package: seao.gui
-Version: 0.1
+Version: 0.2
 Depends: seao
 Date: 22 May 2003
 Title: Simple evolutionary algorithm optimization: graphical user interface
