@@ -1,0 +1,5 @@
+env.gui.ea              Internal variable
+seperate guis           Interactive windows for evolutionary algorithm
+                        functions.
+seao.guistart           Overall graphical user interface
+showvalues.gui          Internal function
